@@ -10,4 +10,8 @@ class test extends Controller
     {
     	 return view('container.test');
     }
+    public function GetTest2()
+    {
+    	 return view('container.test');
+    }
 }
