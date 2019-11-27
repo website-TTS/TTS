@@ -1,12 +1,13 @@
 <?php
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class index extends Controller
+class IndexController extends Controller
 {
     public function GetIndex()
     {
-    	 return view('container.home');
+    	return view('container.home');
     }
 }
