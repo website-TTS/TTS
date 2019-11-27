@@ -12,6 +12,6 @@ class test extends Controller
     }
     public function GetTest2()
     {
-    	 return view('container.test');
+    	 return view('test.test');
     }
 }
