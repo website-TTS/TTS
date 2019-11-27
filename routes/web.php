@@ -15,3 +15,6 @@
 //     return view('welcome');
 // });
 Route::get('/','IndexController@GetIndex');
+Route::get('/login','LoginController@GetLogin');
+Route::get('/register','RegisterController@GetRegister');
+Route::post('/register','UserController@storeUser');
