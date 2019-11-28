@@ -15,6 +15,7 @@
 //     return view('welcome');
 // });
 Route::get('/','IndexController@GetIndex');
+Route::get('/home','IndexController@GetIndex');
 
 Route::get('/san_pham','IndexController@GetSanPham');
 
@@ -24,7 +25,6 @@ Route::group(['prefix' => 'admin'], function(){
 	Route::get('home','AdminController@GetHome');
 	Route::get('login','AdminController@GetLogin');	
 	Route::get('admin','AdminController@GetAdmin');
-	Route::get('add','AdminController@GetAdd');
 	Route::get('product','AdminController@GetProduct');
 	Route::get('addproduct','AdminController@GetAddProduct');
 	Route::get('category','AdminController@GetCategory');
@@ -34,7 +34,14 @@ Route::group(['prefix' => 'admin'], function(){
 
 });
 
-Route::get('/login','LoginController@GetLogin');
-Route::get('/register','RegisterController@GetRegister');
-Route::post('/register','UserController@storeUser');
+Route::group(['prefix' => 'home'], function(){
+	Route::get('login','LoginController@GetLogin');
+	Route::post('login','LoginController@PostVali');
+	Route::get('register','RegisterController@GetRegister');
+	Route::post('register','UserController@storeUser');
+});
 
+
+Route::get('test',function(){
+	return view('container.san_pham');
+});

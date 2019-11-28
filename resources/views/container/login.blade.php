@@ -11,16 +11,26 @@
 
 				<p style="text-align: center; padding-top: 10px;"><b>Đăng nhập</b></p>
 
-				<form  method="post" class="form" role="form">  
-
+				<form action="" method="post" class="form" role="form">  
+					@csrf
 					<div class="form-group has-feedback">
 						<input type="email" name="email" placeholder="Email hoặc số điện thoại" class="form-control">
 						<i class="glyphicon glyphicon-envelope form-control-feedback"></i>
 					</div>
+					@if ($errors->has('email'))
+						<div class="form-group has-feedback">
+							<strong>{{$errors->first('email')}}</strong>
+						</div>
+					@endif
 					<div class="form-group has-feedback">
 						<i class="glyphicon glyphicon-lock form-control-feedback"></i>
 						<input type="password" name="password" placeholder="Nhập mật khẩu" class="form-control">
 					</div>
+					@if ($errors->has('password'))
+						<div class="form-group has-feedback">
+							<strong>{{$errors->first('password')}}</strong>
+						</div>
+					@endif
 			    	<br>
 			    	<div class="checkbox">
 			    		<input type="checkbox" name="remember">
@@ -31,45 +41,7 @@
 
 			    	<a href="#">Quên mật khẩu ?</a>
 				    	
-			   </form> 
-			    
-			    <?php
-	     //             include('connect_user_login.php');
-					 
-	     //             if(isset($_POST['login_user_submit']))
-					 // {
-	     //                 $user=$_POST['user'];
-	     //                 $pass=$_POST['pass'];
-						 
-	     //                 if($user == "" || $pass == "" )
-						//  {
-	     //                     echo '<p style="text-align:center">Hãy điền đầy đủ thông tin!!!</p>';
-							 
-	     //                 }
-						//  else
-						//  {
-	     //                     $pass = md5($pass);
-							 
-	     //                     $sql="SELECT * FROM `userform` WHERE user = '$user' and pass = '$pass' ";
-							 
-	     //                     $query=mysqli_query($connect,$sql);
-							 
-	     //                     $num_rows= mysqli_num_rows($query);
-							 
-	     //                     if($num_rows!=0)
-						// 	 {
-	     //                         $rows= mysqli_fetch_assoc($query);
-	     //                         echo '<p style="text-align:center">Bạn đã đăng nhập thành công!!!</p>';
-	     //                         $_SESSION['user']=$rows['user'];
-	     //                     }
-						// 	 else
-						// 	 {
-	     //                         echo '<p style="text-align:center">Bạn đã đăng nhập không thành công!!!</p>';
-	     //                     }
-	     //                 }
-	     //             }
-	             ?>
-
+			   </form>     
 			</div>		<!-- Kết thúc box_form_register  -->
 		</div>
 	</div>	

@@ -7,6 +7,7 @@
 	<meta name="format-detection" content="telephone=no, email=no" >
 	<meta name="apple-moblie-web-app-title" content="'.$title.'" >
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<base href="{{asset('')}}">
 	<link rel="stylesheet" href="./common/css/style.css" ></link>
 	<script  src="./common/js/jquery-3.4.1.min.js"></script>
 @yield('css')

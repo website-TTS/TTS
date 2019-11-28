@@ -16,12 +16,6 @@ class AdminController extends Controller
     	return view('admin.login');
     }
 
-    public function GetAdd()
-    {
-    	return view('admin.add');
-    }
-
-
     public function GetProduct()
     {
     	return view('admin.product');

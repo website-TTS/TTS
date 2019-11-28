@@ -4,11 +4,11 @@
 		<div class="reponsive">
 			<div class="menu">
 				<div class="js-flex menu-branch">
-					<div class="js-navBtn menu-branch-logo">
-						<a href="#" class="menu-branch-logo-current">
+					<div class="menu-branch-logo">
+						<a href="/home" class="menu-branch-logo-current">
 							<img src="./common/img/tts.png" alt="logo">
 						</a>
-						<a href="jcript:void(0)" class="menu-branch-logo-hiden">
+						<a href="jcript:void(0)" class="js-navBtn menu-branch-logo-hiden">
 							<i class="fa fa-bars"><b>DANH MỤC SẢN PHẨM</b></i>
 						</a>
 					</div>
@@ -64,7 +64,7 @@
 							<a href="#">Đăng ký</a>
 						</div>
 						<div class="menu-list-user-login">
-							<a href="/login">Đăng nhập</a>
+							<a href="/home/login">Đăng nhập</a>
 						</div>
 					</div>
 				</div>				
@@ -193,7 +193,7 @@
 			<div class="sp-menu">
 				<div class="sp-menu-branch">
 					<div class="sp-menu-branch-logo">
-						<a href="#" class="sp-menu-branch-logo__img"><img src="./common/img/tts.png" alt="logo"></a>
+						<a href="/home" class="sp-menu-branch-logo__img"><img src="./common/img/tts.png" alt="logo"></a>
 					</div>
 					<div class="sp-menu-branch-search">
 						<div class="sp-menu-branch-search-box">
@@ -231,7 +231,7 @@
 								<div class="sp-menu-list-user-backround-border"></div>
 							</div>
 							<div class="sp-menu-list-user-login">
-								<a href="#">Đăng nhập</a>
+								<a href="/home/login">Đăng nhập</a>
 							</div>
 					    </div>
 					</div>	

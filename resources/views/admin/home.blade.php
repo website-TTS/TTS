@@ -102,16 +102,6 @@
 			</div>
 		</div><!--/.row-->
 		
-		<div class="row">
-			<div class="col-md-12">
-				<div class="panel panel-red">
-					<div class="panel-heading dark-overlay"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg>Lịch</div>
-					<div class="panel-body">
-						<div id="calendar"></div>
-					</div>
-				</div>
-			</div><!--/.col-->
-		</div><!--/.row-->
 	</div>	<!--/.main-->
 		  
 
