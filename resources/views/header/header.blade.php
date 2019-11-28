@@ -64,7 +64,7 @@
 							<a href="#">Đăng ký</a>
 						</div>
 						<div class="menu-list-user-login">
-							<a href="#">Đăng nhập</a>
+							<a href="/login">Đăng nhập</a>
 						</div>
 					</div>
 				</div>				

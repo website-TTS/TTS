@@ -25,5 +25,6 @@
 	@include('footer.footer')
 	<!-- End footer -->
    <script  src="./common/js/script.js"></script>
+@yield('js')
 </body>
 </html>
