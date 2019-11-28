@@ -10,4 +10,9 @@ class IndexController extends Controller
     {
     	return view('container.home');
     }
+
+    public function GetSanPham()
+    {
+    	return view('container.san_pham');
+    }
 }

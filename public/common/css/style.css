@@ -207,6 +207,7 @@ ul, ol {
 	height: 100%;
 }
 .menu-branch-search-btn {
+	padding: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -550,6 +551,7 @@ input[class="logout_user"]:hover
 }
 
 .sp-menu-branch-search-box-btn {
+	padding: 3px;
 	height: 35px;
 	width: 35px;
 	display: flex;
@@ -1058,13 +1060,19 @@ input[class="logout_user"]:hover
 
 .content-sale-list-item img {
 	height: 180px;
-	width: 180px;
+	width: 100%;
 }
 
 .content-sale-list-item p {
 	display: flex;
 	padding: 5px;
 	flex-wrap: wrap;
+}
+
+.content-sale-list-item-btn {
+	bottom: 0;
+	display: flex;
+	height: 30px;
 }
 
 .content-sale-list-item__price {
@@ -1075,7 +1083,7 @@ input[class="logout_user"]:hover
 
 .detail
 {
-	width: 42%;
+	width: 50%;
 	height: 30px;
 	left: 0;
 	bottom: 1px;
@@ -1091,9 +1099,9 @@ input[class="logout_user"]:hover
 	color: black;
 }
 
-.content-sale-list-item .buy_now
+.buy_now
 {
-	width: 42%;
+	width: 50%;
 	height: 30px;
 	right: 0;
 	bottom: 1px;

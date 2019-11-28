@@ -24,7 +24,7 @@
 							<input type="text" placeholder="Tìm kiếm...">
 						</div>
 						<div class="menu-branch-search-btn">
-							<i class="fa fa-search"></i>
+							<img src="./common/img/—Pngtree—vector search icon_3783210.png" alt="logo_search">
 						</div>
 					</div>
 					<div class="menu-branch-list">
@@ -201,7 +201,7 @@
 								<input type="text" placeholder="Tìm kiếm...">
 							</div>
 							<div class=" sp-menu-branch-search-box-btn">
-								<i class="fa fa-search"></i>
+								<img src="./common/img/—Pngtree—vector search icon_3783210.png" alt="logo_search">
 							</div>
 						</div>
 					</div>				
