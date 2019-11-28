@@ -1,8 +1,8 @@
 @extends('index')
 @section('css')
-<link rel="stylesheet" href="./common/css/Style_User_Login.css" ></link>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./common/css/Style_User_Login.css" ></link>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 @endsection
 @section('container')
 	<div class="reponsive">
@@ -67,5 +67,5 @@
 		</div>		<!-- Kết thúc box_form_register  -->
 
 	</div>
-	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="./js/jquery-1.11.1.min.js"></script>
 @endsection

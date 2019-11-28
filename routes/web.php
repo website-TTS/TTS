@@ -15,7 +15,7 @@
 //     return view('welcome');
 // });
 Route::get('/','IndexController@GetIndex');
-<<<<<<< HEAD
+
 Route::get('/san_pham','IndexController@GetSanPham');
 
 //Route cho tới trang admin
@@ -33,8 +33,8 @@ Route::group(['prefix' => 'admin'], function(){
 	Route::get('editproduct','AdminController@GetEditProduct');
 
 });
-=======
+
 Route::get('/login','LoginController@GetLogin');
 Route::get('/register','RegisterController@GetRegister');
 Route::post('/register','UserController@storeUser');
->>>>>>> 673e5e77ba0451a5fd9add727d427c91e36d0827
+

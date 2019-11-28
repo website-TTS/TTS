@@ -1,4 +1,4 @@
-<!-- Header -->
+
 	<!-- Only PC -->
 	<header class="only-pc">
 		<div class="reponsive">
@@ -261,4 +261,3 @@
 		</div>			
 	</header>
 	<!-- End only SP -->
-	<!-- End header -->
