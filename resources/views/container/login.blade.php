@@ -4,6 +4,9 @@
 	<link rel="stylesheet" href="./common/css/bootstrap.css">
 	<script src="./js/bootstrap.min.js"></script>
 @endsection
+@section('title')
+| Login
+@endsection
 @section('container')
 	<div class="reponsive">
 		<div  class="box-form-view">

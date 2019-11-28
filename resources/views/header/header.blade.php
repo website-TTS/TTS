@@ -61,7 +61,7 @@
 							<div class="menu-list-user-backround-border"></div>
 						</div>
 						<div class="menu-list-user-subscribe">
-							<a href="#">Đăng ký</a>
+							<a href="/home/register">Đăng ký</a>
 						</div>
 						<div class="menu-list-user-login">
 							<a href="/home/login">Đăng nhập</a>
@@ -229,6 +229,9 @@
 						<div class="sp-menu-list-user">
 							<div class="sp-menu-list-user-backround">
 								<div class="sp-menu-list-user-backround-border"></div>
+							</div>
+							<div class="sp-menu-list-user-register">
+								<a href="/home/register">Đăng ký</a>
 							</div>
 							<div class="sp-menu-list-user-login">
 								<a href="/home/login">Đăng nhập</a>

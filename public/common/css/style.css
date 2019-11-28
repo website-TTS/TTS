@@ -690,7 +690,7 @@ input[class="logout_user"]:hover
     width: 100%;
 }
 
-.sp-menu-list-user-login {
+.sp-menu-list-user-register {
 	border-radius: 0 0 0 12px;
 	font-size: 12px;
 	white-space: nowrap;
@@ -699,11 +699,28 @@ input[class="logout_user"]:hover
     background-color: #546ce8;
     justify-content: center;
     height: 45px;
-    width: 80%;
+    width: 40%;
+}
+
+.sp-menu-list-user-register a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sp-menu-list-user-login {
+	font-size: 12px;
+	white-space: nowrap;
+	align-items: center;
+    display: flex;
+    background-color: #546ce8;
+    justify-content: center;
+    height: 45px;
+    width: 40%;
 }
 
 .sp-menu-list-user-login a{
 	color: #fff;
+	text-decoration: none;
 }
 
 .sp-menu-nav-content {

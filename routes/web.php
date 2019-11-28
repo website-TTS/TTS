@@ -38,7 +38,7 @@ Route::group(['prefix' => 'home'], function(){
 	Route::get('login','LoginController@GetLogin');
 	Route::post('login','LoginController@PostVali');
 	Route::get('register','RegisterController@GetRegister');
-	Route::post('register','UserController@storeUser');
+	Route::post('register','RegisterController@PostVali');
 });
 
 
