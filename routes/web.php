@@ -24,7 +24,8 @@ Route::group(['prefix' => 'admin'], function(){
 	Route::get('','AdminController@GetHome');
 	Route::get('home','AdminController@GetHome');
 	Route::get('login','AdminController@GetLogin');	
-	Route::get('admin','AdminController@GetAdmin');
+	Route::get('user','AdminController@GetUser');
+	Route::get('bill','AdminController@GetBill');
 	Route::get('product','AdminController@GetProduct');
 	Route::get('addproduct','AdminController@GetAddProduct');
 	Route::get('category','AdminController@GetCategory');

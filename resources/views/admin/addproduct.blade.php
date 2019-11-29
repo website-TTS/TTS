@@ -60,14 +60,14 @@
 										<textarea required name="description"></textarea>
 									</div>
 									<div class="form-group" >
-										<label>Danh mục</label>
+										<label>Hảng</label>
 										<select required name="cate" class="form-control">
-											<option value="1">iPhone</option>
-											<option value="2">Samsung</option>
-											<option value="3">Nokia</option>
-											<option value="4">HTC</option>
-											<option value="5">LG</option>
-											<option value="6">Sony</option>
+											<option value="1">Acer</option>
+											<option value="2">Acus</option>
+											<option value="3">Lenovo</option>
+											<option value="4">Dell</option>
+											<option value="5">HP</option>
+											<option value="6">MSI</option>
 					                    </select>
 									</div>
 									<div class="form-group" >

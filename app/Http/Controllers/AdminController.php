@@ -16,6 +16,11 @@ class AdminController extends Controller
     	return view('admin.login');
     }
 
+    public function GetBill()
+    {
+        return view('admin.bill');
+    }
+
     public function GetProduct()
     {
     	return view('admin.product');
@@ -26,9 +31,9 @@ class AdminController extends Controller
     	return view('admin.addproduct');
     }
 
-    public function GetAdmin()
+    public function GetUser()
     {
-    	return view('admin.admin');
+    	return view('admin.user');
     }
 
     public function GetCategory()
