@@ -74,7 +74,7 @@
 							<div class="nav-reponsive-container-list-item">
 								<p class="nav-reponsive-container-list-item__txt">Lap top Acer</p>
 							</div>
-							<div class="nav-reponsive-container-list-item-sub">
+							<!-- <div class="nav-reponsive-container-list-item-sub">
 								<div class="nav-reponsive-container-list-item-sub-box">
 									<div class="nav-reponsive-container-list-item-sub-subitem">
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt"> Acer Aspir</a>
@@ -86,13 +86,13 @@
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt"> Acer Swift</a>
 									</div>
 								</div>							
-							</div>	
+							</div>	 -->
 						</div>	
 						<div class="js-hover nav-reponsive-container-list">
 							<div class="nav-reponsive-container-list-item">
 								<p class="nav-reponsive-container-list-item__txt">LapTop Asus</p>
 							</div>
-							<div class="nav-reponsive-container-list-item-sub">
+							<!-- <div class="nav-reponsive-container-list-item-sub">
 								<div class="nav-reponsive-container-list-item-sub-box">
 									<div class="nav-reponsive-container-list-item-sub-subitem">
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt"> Asus Strix</a>
@@ -104,13 +104,13 @@
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt"> Asus Zenbook</a>
 									</div>
 								</div>							
-							</div>	
+							</div>	 -->
 						</div>		
 						<div class="js-hover nav-reponsive-container-list">
 							<div class="nav-reponsive-container-list-item">
 								<p class="nav-reponsive-container-list-item__txt">LapTop Dell</p>
 							</div>
-							<div class="nav-reponsive-container-list-item-sub">
+							<!-- <div class="nav-reponsive-container-list-item-sub">
 								<div class="nav-reponsive-container-list-item-sub-box">
 									<div class="nav-reponsive-container-list-item-sub-subitem">
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt"> Dell Latitude</a>
@@ -119,13 +119,13 @@
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt"> Dell Vostro</a>
 									</div>
 								</div>							
-							</div>	
+							</div>	 -->
 						</div>	
 						<div class="js-hover nav-reponsive-container-list">
 							<div class="nav-reponsive-container-list-item">
 								<p class="nav-reponsive-container-list-item__txt">LapTop HP</p>
 							</div>
-							<div class="nav-reponsive-container-list-item-sub">
+							<!-- <div class="nav-reponsive-container-list-item-sub">
 								<div class="nav-reponsive-container-list-item-sub-box">
 									<div class="nav-reponsive-container-list-item-sub-subitem">
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt">HP Spectre</a>
@@ -134,13 +134,13 @@
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt">HP Zbook</a>
 									</div>
 								</div>							
-							</div>	
+							</div>	 -->
 						</div>	
 						<div class="js-hover nav-reponsive-container-list">
 							<div class="nav-reponsive-container-list-item">
 								<p class="nav-reponsive-container-list-item__txt">LapTop Lenovo</p>
 							</div>
-							<div class="nav-reponsive-container-list-item-sub">
+							<!-- <div class="nav-reponsive-container-list-item-sub">
 								<div class="nav-reponsive-container-list-item-sub-box">
 									<div class="nav-reponsive-container-list-item-sub-subitem">
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt">Lenovo ThinkPad</a>
@@ -149,13 +149,13 @@
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt">Lenovo Legion</a>
 									</div>
 								</div>							
-							</div>	
+							</div> -->	
 						</div>		
 						<div class="js-hover nav-reponsive-container-list">
 							<div class="nav-reponsive-container-list-item">
-								<p class="nav-reponsive-container-list-item__txt">LapTop Lenovo</p>
+								<p class="nav-reponsive-container-list-item__txt">LapTop Microsoft</p>
 							</div>
-							<div class="nav-reponsive-container-list-item-sub ">
+							<!-- <div class="nav-reponsive-container-list-item-sub ">
 								<div class="nav-reponsive-container-list-item-sub-box">
 									<div class="nav-reponsive-container-list-item-sub-subitem">
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt">Lenovo ThinkPad</a>
@@ -164,13 +164,13 @@
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt">Lenovo Legion</a>
 									</div>
 								</div>							
-							</div>	
+							</div>	 -->
 						</div>
 						<div class="js-hover nav-reponsive-container-list">
 							<div class="nav-reponsive-container-list-item">
 								<p class="nav-reponsive-container-list-item__txt">LapTop MSI</p>
 							</div>
-							<div class="nav-reponsive-container-list-item-sub nav-reponsive-container-list-item-sub-right">
+							<!-- <div class="nav-reponsive-container-list-item-sub nav-reponsive-container-list-item-sub-right">
 								<div class="nav-reponsive-container-list-item-sub-box ">
 									<div class="nav-reponsive-container-list-item-sub-subitem">
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt">MSI Prestige 14 </a>
@@ -179,7 +179,7 @@
 										<a href="#" class="nav-reponsive-container-list-item-sub-subitem__txt">MSI Prestige 14</a>
 									</div>
 								</div>							
-							</div>	
+							</div>	 -->
 						</div>				
 					</div>								
 				</div>	

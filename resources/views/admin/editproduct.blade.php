@@ -1,6 +1,6 @@
 @extends('admin.index')
 @section('title')
-| Category </title>
+| Product </title>
 @endsection
 @section('conainer')
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
@@ -86,6 +86,9 @@
 			</div>
 		</div><!--/.row-->
 	</div>	<!--/.main-->
+@endsection
+	
+@section('js')
 	<script>
 		$('#calendar').datepicker({
 		});
@@ -121,5 +124,3 @@
 		});
 	</script>	
 @endsection
-	
-		
