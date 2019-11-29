@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\RegisterRequest;
 use Illuminate\Http\Request;
 
-class RegisterController extends Controller
+class HomeRegister extends Controller
 {
     public function GetRegister()
     {
@@ -16,5 +15,4 @@ class RegisterController extends Controller
     {
     	return view('container.home');
     }
-
 }

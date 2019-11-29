@@ -14,33 +14,53 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/','IndexController@GetIndex');
-Route::get('/home','IndexController@GetIndex');
+Route::get('/','IndexController@GetHome');
+Route::get('/home','IndexController@GetIndex')->name('home');
+Route::group(['prefix' => 'home'], function(){
+	//Route /home/login
+	Route::get('login','HomeLoginController@GetLogin');
+	Route::post('login','HomeLoginController@PostVali');
 
-Route::get('/san_pham','IndexController@GetSanPham');
+	//Route /home/register
+	Route::get('register','HomeRegister@GetRegister');
+	Route::post('register','HomeRegister@PostVali');
+});
 
+Route::get('admin','AdminController@GetHome');
 //Route cho tới trang admin
 Route::group(['prefix' => 'admin'], function(){
-	Route::get('','AdminController@GetHome');
-	Route::get('home','AdminController@GetHome');
-	Route::get('login','AdminController@GetLogin');	
-	Route::get('user','AdminController@GetUser');
-	Route::get('bill','AdminController@GetBill');
-	Route::get('product','AdminController@GetProduct');
-	Route::get('addproduct','AdminController@GetAddProduct');
-	Route::get('category','AdminController@GetCategory');
-	Route::get('edit','AdminController@GetEdit');
-	Route::get('editcategory','AdminController@GetEditCategory');
-	Route::get('editproduct','AdminController@GetEditProduct');
+	Route::get('','AdminController@GetAdminHome');
+	Route::get('home','AdminController@GetHome')->name('adminhome');
+
+	//Router /admin/login
+	Route::get('login','AdminLoginController@GetLogin');	
+
+	//Route /admin/user tới trang danh sách user
+	Route::get('user','AdminUserController@GetUser');
+
+	//Route /admin/bill tới trang danh sách bill
+	Route::get('bill','AdminBillController@GetBill');
+
+	//Route /admin/product tới trang danh sách sản phẩm
+	Route::get('product','AdminProductController@GetProduct');
+
+	//Route /admin/addproduct tới trang thêm sản phẩm	
+	Route::get('addproduct','AdminAddproductController@GetAddProduct');
+
+	//Route /admin/addproduct tới trang thêm hảng	
+	Route::get('category','AdminCategoryController@GetCategory');
+
+	// Route /admin/edit 	
+	// Route::get('edit','AdminController@GetEdit');
+
+	// Route /admin/editcategory tới trang sửa hảng	
+	Route::get('editcategory','AdminEditCategoryController@GetEditCategory');
+
+	// Route::get('edit','AdminController@GetEdit');
+	Route::get('editproduct','AdminEditProductController@GetEditProduct');
 
 });
 
-Route::group(['prefix' => 'home'], function(){
-	Route::get('login','LoginController@GetLogin');
-	Route::post('login','LoginController@PostVali');
-	Route::get('register','RegisterController@GetRegister');
-	Route::post('register','RegisterController@PostVali');
-});
 
 
 Route::get('test',function(){

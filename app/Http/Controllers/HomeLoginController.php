@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\LoginRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
-class LoginController extends Controller
+class HomeLoginController extends Controller
 {
     public function GetLogin()
     {
@@ -14,10 +15,10 @@ class LoginController extends Controller
 
     public function PostVali(LoginRequest $request)
     {
-    	$email = $request->email;
-    	$password= $request->password;
-    	if (Auth::attempt(['email'=> $email,'password'=> $password])) {
+    // 	$emailrq = $request->email;
+    // 	$passwordrq= $request->password;
+    // 	if (Auth::attempt(['email'=> $emailrq,'password'=> $passwordrq])) {
     		Return view('container.home'); 
-    	}
+    	// }
     }
 }

@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
+	public function GetHome()
+    {
+    	return redirect()->route('home');
+    }
+
     public function GetIndex()
     {
     	return view('container.home');
