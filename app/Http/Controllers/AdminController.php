@@ -48,7 +48,7 @@ class AdminController extends Controller
 
     public function GetEditProduct()
     {
-    	return view('admin.editcategory');
+    	return view('admin.editproduct');
     }
 
 

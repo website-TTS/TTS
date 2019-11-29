@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="./common/css/style.css" ></link>
 	<script  src="./common/js/jquery-3.4.1.min.js"></script>
 @yield('css')
-    <title>Home @yield('title')</title>
+    <title>TTS @yield('title')</title>
 </head>
 <body>
 	<!-- Header -->
