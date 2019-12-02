@@ -26,6 +26,7 @@
 	<!-- End footer -->
 	<script  src="./common/js/jquery-3.4.1.min.js"></script>
     <script  src="./common/js/script.js"></script>
+    <script src="./common/js/function.js"></script>
 @yield('js')
 </body>
 </html>
