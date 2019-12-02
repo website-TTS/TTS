@@ -24,6 +24,9 @@ Route::group(['prefix' => 'home'], function(){
 	//Route /home/register
 	Route::get('register','HomeRegister@GetRegister');
 	Route::post('register','HomeRegister@PostVali');
+
+	//Route /home/shoppingcart
+	Route::get('ShoppingCart','ShoppingCartController@GetShoppingCart');
 });
 
 Route::get('admin','AdminController@GetHome');

@@ -32,10 +32,10 @@
 										<input required id="img" type="file" name="img" class="form-control hidden" onchange="changeImg(this)">
 					                    <img id="avatar" class="thumbnail" width="300px" src="img/new_seo-10-512.png">
 									</div>
-									<div class="form-group" >
+									<!-- <div class="form-group" >
 										<label>Phụ kiện</label>
 										<input required type="text" name="accessories" class="form-control">
-									</div>
+									</div> -->
 									<div class="form-group" >
 										<label>Bảo hành</label>
 										<input required type="text" name="warranty" class="form-control">
@@ -70,11 +70,11 @@
 											<option value="6">MSI</option>
 					                    </select>
 									</div>
-									<div class="form-group" >
+									<!-- <div class="form-group" >
 										<label>Sản phẩm nổi bật</label><br>
 										Có: <input type="radio" name="featured" value="1">
 										Không: <input type="radio" checked name="featured" value="0">
-									</div>
+									</div> -->
 									<input type="submit" name="submit" value="Thêm" class="btn btn-primary">
 									<a href="#" class="btn btn-danger">Hủy bỏ</a>
 								</div>

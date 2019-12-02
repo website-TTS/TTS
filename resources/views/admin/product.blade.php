@@ -45,6 +45,36 @@
 											</td>
 										</tr>										
 									</tbody>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Laptop DELL N5590G5</td>
+											<td>44.990.000 đ</td>
+											<td>
+												<img width="200px" src="./common/img/DELL/Inspiron_N5590G5/Inspiron_N5590G5_1.png" class="thumbnail">
+											</td>
+											<td>DELL</td>
+											<td>
+												<a href="/admin/editproduct" class="btn btn-warning"><i class="fa fa-pencil" aria-hidden="true"></i> Sửa</a>
+												<a href="#" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i> Xóa</a>
+											</td>
+										</tr>										
+									</tbody>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Laptop DELL N5590G5</td>
+											<td>44.990.000 đ</td>
+											<td>
+												<img width="200px" src="./common/img/DELL/Inspiron_N5590G5/Inspiron_N5590G5_1.png" class="thumbnail">
+											</td>
+											<td>DELL</td>
+											<td>
+												<a href="/admin/editproduct" class="btn btn-warning"><i class="fa fa-pencil" aria-hidden="true"></i> Sửa</a>
+												<a href="#" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i> Xóa</a>
+											</td>
+										</tr>										
+									</tbody>
 								</table>							
 							</div>
 						</div>

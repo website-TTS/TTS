@@ -58,49 +58,49 @@
 								<tr>
 									<td>Acer</td>
 									<td>
-			                    		<a href="/admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
+			                    		<a href="admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 			                    		<a href="#" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 			                  		</td>
 			                  	</tr>
 			                  	<tr>
 									<td>Asus</td>
 									<td>
-			                    		<a href="/admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
+			                    		<a href="admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 			                    		<a href="#" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 			                  		</td>
 			                  	</tr> 
 			                  	<tr>
 									<td>Microsoft</td>
 									<td>
-			                    		<a href="/admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
+			                    		<a href="admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 			                    		<a href="#" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 			                  		</td>
 			                  	</tr> 
 			                  	<tr>
 									<td>Dell</td>
 									<td>
-			                    		<a href="/admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
+			                    		<a href="admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 			                    		<a href="#" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 			                  		</td>
 			                  	</tr>
 			                  	<tr>
 									<td>HP</td>
 									<td>
-			                    		<a href="/admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
+			                    		<a href="admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 			                    		<a href="#" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 			                  		</td>
 			                  	</tr>
 			                  	<tr>
 									<td>Lenovo</td>
 									<td>
-			                    		<a href="/admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
+			                    		<a href="admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 			                    		<a href="#" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 			                  		</td>
 			                  	</tr>
 			                  	<tr>
 									<td>MSI</td>
 									<td>
-			                    		<a href="/admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
+			                    		<a href="admin/editcategory" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 			                    		<a href="#" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 			                  		</td>
 			                  	</tr> 

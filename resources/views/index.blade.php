@@ -9,7 +9,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
 	<base href="{{asset('')}}">
 	<link rel="stylesheet" href="./common/css/style.css" ></link>
-	<script  src="./common/js/jquery-3.4.1.min.js"></script>
 @yield('css')
     <title>TTS @yield('title')</title>
 </head>
@@ -25,7 +24,8 @@
 	<!-- Footer -->
 	@include('footer.footer')
 	<!-- End footer -->
-   <script  src="./common/js/script.js"></script>
+	<script  src="./common/js/jquery-3.4.1.min.js"></script>
+    <script  src="./common/js/script.js"></script>
 @yield('js')
 </body>
 </html>

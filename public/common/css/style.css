@@ -151,6 +151,7 @@ ul, ol {
 .menu-branch-search-location__txt {
 	padding: 0 10px;
 	user-select: none;	
+	 margin-bottom: 0;
 }
 
 .menu-branch-search-location__txt::after{

@@ -26,7 +26,7 @@
 									<div class="form-group" >
 										<label>Logo hảng</label>
 										<input id="img" type="file" name="img" class="form-control hidden" onchange="changeImg(this)">
-					                    <img id="avatar" class="thumbnail" width="300px" src="./common/img/DELL/Inspiron_N5590G5/Inspiron_N5590G5_1.png">
+					                    <img id="avatar" class="thumbnail" width="300px" src="./common/img/acer-logo.jpg">
 									</div>
 									<div class="form-group" >
 										<label>Mã hảng</label>
@@ -71,7 +71,7 @@
 										Có: <input type="radio" name="featured" value="1">
 										Không: <input type="radio" checked name="featured" value="0">
 									</div> -->
-									<input type="submit" name="submit" value="Thêm" class="btn btn-primary">
+									<input type="submit" name="submit" value="Sửa" class="btn btn-primary">
 									<a href="#" class="btn btn-danger">Hủy bỏ</a>
 								</div>
 							</div>

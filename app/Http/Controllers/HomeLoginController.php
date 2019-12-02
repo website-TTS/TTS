@@ -15,10 +15,14 @@ class HomeLoginController extends Controller
 
     public function PostVali(LoginRequest $request)
     {
-    // 	$emailrq = $request->email;
-    // 	$passwordrq= $request->password;
-    // 	if (Auth::attempt(['email'=> $emailrq,'password'=> $passwordrq])) {
+    	// $email = $request->email;
+    	// $password= $request->password;
+    	if (Auth::attempt(['email'=> $email,'password'=> $password])) {
     		Return view('container.home'); 
     	// }
+     //    else
+     //    {
+     //        Return view('container.login'); 
+     //    }
     }
 }

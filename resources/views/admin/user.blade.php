@@ -8,7 +8,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/datepicker3.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+    <script type="text/javascript"
+    <td><a href="#">More</a></td> src="c
+    <td><a href="#">More</a></td>kEditor/ckEditor.js"></script>
     <script src="js/lumino.glyphs.js"></script>
 <style>
 #navbar{
@@ -28,9 +30,10 @@
         	<nav class="navbar navbar-default">
   				<div class="container-fluid">
                 	<ul class="nav navbar-nav">
-                        <li><a href="/admin">Home</a></li>
-                        <li><a href="/admin/bill">Hóa đơn</a></li>
-                        <!-- <li><a href="#">Add user</a></li> -->
+                        <li><a href="admin">Home</a></li>
+                        <li><a href="admin/user">Khách hàng</a></li>
+                        <li><a href="admin/bill">Hóa đơn</a></li>
+                        <li><a href="admin/orders">Đơn đặt hàng</a></li>
                 	</ul>
                    <!--  <p id="logout" class="navbar-text navbar-right"><a class="navbar-link" href="#">Logout</a></p> -->
                 </div>
@@ -45,7 +48,8 @@
                     <td width="21.25%">Fullname</td>
                     <td width="15%">Số điện thoại</td>
                     <td width="21.25%">Email</td>
-                    <td width="27.5%%">Địa chỉ</td>
+                    <td width="22.5%%">Địa chỉ</td>
+                    <td width="5">More</td>
                     <td width="5%">Edit</td>
                     <td width="5%">Delete</td>
                 </tr>
@@ -55,6 +59,7 @@
                     <td>18009890</td>
                     <td>nguyenvana@gmail.com</td>
                     <td>223 đinh bộ lỉnh, phường 5 , Quận Bình Thạnh, HCM</td>
+                    <td><a href="#">More</a></td>
                     <td><a href="#">Edit</a></td>
                     <td><a href="#">Delete</a></td>
                 </tr>
@@ -64,6 +69,7 @@
                     <td>18009890</td>
                     <td>lethib@gmail.com</td>
                     <td>223 đinh bộ lỉnh, phường 5 , Quận Bình Thạnh, HCM</td>
+                    <td><a href="#">More</a></td>
                     <td><a href="#">Edit</a></td>
                     <td><a href="#">Delete</a></td>
                 </tr>
@@ -73,6 +79,7 @@
                     <td>18009890</td>
                     <td>nguyenvana@gmail.com</td>
                     <td>223 đinh bộ lỉnh, phường 5 , Quận Bình Thạnh, HCM</td>
+                    <td><a href="#">More</a></td>
                     <td><a href="#">Edit</a></td>
                     <td><a href="#">Delete</a></td>
                 </tr>
@@ -82,6 +89,7 @@
                     <td>18009890</td>
                     <td>lethib@gmail.com</td>
                     <td>223 đinh bộ lỉnh, phường 5 , Quận Bình Thạnh, HCM</td>
+                    <td><a href="#">More</a></td>
                     <td><a href="#">Edit</a></td>
                     <td><a href="#">Delete</a></td>
                 </tr>
@@ -91,6 +99,7 @@
                     <td>18009890</td>
                     <td>nguyenvana@gmail.com</td>
                     <td>223 đinh bộ lỉnh, phường 5 , Quận Bình Thạnh, HCM</td>
+                    <td><a href="#">More</a></td>
                     <td><a href="#">Edit</a></td>
                     <td><a href="#">Delete</a></td>
                 </tr>
@@ -100,6 +109,7 @@
                     <td>18009890</td>
                     <td>lethib@gmail.com</td>
                     <td>223 đinh bộ lỉnh, phường 5 , Quận Bình Thạnh, HCM</td>
+                    <td><a href="#">More</a></td>
                     <td><a href="#">Edit</a></td>
                     <td><a href="#">Delete</a></td>
                 </tr>

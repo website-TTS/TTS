@@ -28,9 +28,10 @@
         	<nav class="navbar navbar-default">
   				<div class="container-fluid">
                 	<ul class="nav navbar-nav">
-                        <li><a href="/admin">Home</a></li>
-                        <li><a href="/admin/user">Khách hàng</a></li>
-                        <!-- <li><a href="#">Add bill</a></li> -->
+                        <li><a href="admin">Home</a></li>
+                        <li><a href="admin/user">Khách hàng</a></li>
+                        <li><a href="admin/bill">Hóa đơn</a></li>
+                        <li><a href="admin/orders">Đơn đặt hàng</a></li>
                 	</ul>
                    <!--  <p id="logout" class="navbar-text navbar-right"><a class="navbar-link" href="#">Logout</a></p> -->
                 </div>
