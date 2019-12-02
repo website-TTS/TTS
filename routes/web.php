@@ -64,7 +64,24 @@ Route::group(['prefix' => 'admin'], function(){
 
 });
 
+Route::get('chitietsanpham/{tenlt}',[
+	'as'=>'chitietsanpham',
+	'uses'=>'ChiTietController@GetChitiet'
+]);
+Route::get('muahang/{id}',[
+	'as'=>'muahang',
+	'uses'=>'CartController@GetaddCart'
+]);
 
+Route::get('giohang',[
+	'as'=>'giohang',
+	'uses'=>'CartController@GetshowCart'
+]);
+
+Route::get('cauhinhlaptop/{dongsp}',[
+	'as'=>'cauhinhlaptop',
+	'uses'=>'LaptopTheoCauHinhController@GetCauHinh'
+]);
 
 Route::get('test',function(){
 	return view('container.san_pham');
